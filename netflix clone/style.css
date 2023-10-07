@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: gray;
+    color: white;
+}
+
+#main{
+    width: 100%;
+    height: 600px;
+     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/f85718e8-fc6d-4954-bca0-f5eaf78e0842/dee52c29-daf8-4d8c-b81a-1c2527782060/PK-en-20230918-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    margin-bottom: 5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    padding-top: 10px;
+}
+.btn,a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.input{
+    position: absolute;
+    top: 40%;
+    left: 180px;
+    font-size: 60px;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 900;
+}
+.input p{
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+font-family: 'Mooli', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.line{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 900;
+    font-weight: 10;
+    font-family: 'Anton', sans-serif;
+font-family: 'Mooli', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+input{
+    margin-left: 180px;
+    align-items: center;
+    padding: 15px;
+    width: 40%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+    background-clip: padding-box;
+}
+input,::placeholder{
+    color: white;
+    font-size: 20px;
+
+}
+button{
+    padding: 15px;
+    color: white;
+    background-color: red;
+    border-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-left: 5px; */
+}
+#page{
+    color: white;
+    padding: 50px;
+    background-color: black;
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding: 10px 8%;
+    width: 100%;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.text,h3{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.tv{
+    display: flex;
+    flex-direction: row;
+}
+#page2{
+    color: white;
+    background-color: black;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 10px 8%;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+.bold{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.mob{
+    display: flex;
+    flex-direction: row;
+}
+h5{
+    align-items: center;
+    font-size: 30px;
+    margin-top: 150px;
+}
+#page3{
+    color: white;
+    background-color: black;
+    margin-bottom: 5px;
+    padding: 30px 8%;
+    width: 100%;
+    height: 300px;
+}
+.box1,h4{
+    text-align: left;
+    font-size: 60px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.box1,h3{
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+#page4{
+    color: white;
+    background-color: black;
+    margin-bottom: 5px;
+    padding: 10px 8%;
+    width: 100%;
+}
+
+
+
+#page5{
+    color: white;
+    background-color: black;
+    margin-bottom: 5px;
+    padding: 10px 8%;
+    width: 100%;
+    height: 900px;
+}
+#faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 200px;
+}
+.faq{
+    font-weight: 500;
+    font-size: 40px;
+}
+.accordion{
+     margin: 60px auto;
+     width: 100%;
+     max-width: 750px;
+     margin-right: 200px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    font-family: 'roboto';
+}
+label::after{
+      content: '+';
+      font-size: 35px;
+      position: absolute;
+      right: 20px;
+      transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5  s;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.content{
+    font-family: 'roboto';
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+#faq .form{
+    max-width: 600px;
+    margin: 20px auto 60px;
+    margin-right: 250px;
+}
+#faq small{
+    font-size: 15px;
+}
+.email-signup{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email-signup input::placeholder{
+    color: black;
+}
+.email-signup button{
+    background-color: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 18px 17px;
+}
+#page6{
+    color: white;
+    background-color: black;
+    margin-bottom: 5px;
+    padding: 10px 8%;
+    width: 100%;
+    /* height: 300px; */
+}
+.footer{
+    max-width: 70%;
+    margin: 1rem auto;
+   
+}
+
+.footer ,
+.footer a{
+    color: #999999;
+    font-size: 0.9rem;
+    background: black;
+}
+
+.footer p{
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li{
+    line-height: 2.4;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
